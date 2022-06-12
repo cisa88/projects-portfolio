@@ -1,0 +1,36 @@
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.AssemblyReference.cache
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.AssemblyInfoInputs.cache
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.AssemblyInfo.cs
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.CoreCompileInputs.cache
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.exe
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.deps.json
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.runtimeconfig.json
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.dll
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.pdb
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.dll
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\refint\PV178-HW02.dll
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.pdb
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.genruntimeconfig.cache
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\ref\PV178-HW02.dll
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\FormulaAPI.dll
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\FormulaAPI.xml
+D:\Škola - já\6. semestr\PV178 - Úvod do vývoje C#\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.CopyComplete
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.exe
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.deps.json
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.runtimeconfig.json
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.dll
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\PV178-HW02.pdb
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\FormulaAPI.dll
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\bin\Debug\net6.0\FormulaAPI.xml
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.AssemblyReference.cache
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.GeneratedMSBuildEditorConfig.editorconfig
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.AssemblyInfoInputs.cache
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.AssemblyInfo.cs
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.CoreCompileInputs.cache
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.csproj.CopyComplete
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.dll
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\refint\PV178-HW02.dll
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.pdb
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\PV178-HW02.genruntimeconfig.cache
+D:\school\6_semestr\PV178\hw02\PV178-HW02\PV178-HW02\obj\Debug\net6.0\ref\PV178-HW02.dll
