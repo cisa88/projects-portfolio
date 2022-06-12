@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  backend:
+    image: '${CI_REGISTRY_IMAGE}/backend:${CI_COMMIT_REF_SLUG}'
+    network_mode: host
+    build:
+      context: ./backend
+      network: host
+    #ports:
+    #- "3001:3001"
+    environment:
+      ENVIRONMENT: prod
+  frontend:
+    image: '${CI_REGISTRY_IMAGE}/frontend:${CI_COMMIT_REF_SLUG}'
+    network_mode: host
+    build:
+      context: ./frontend
+      network: host
+    #ports:
+    #- "3000:4173"
+  nginx:
+    image: '${CI_REGISTRY_IMAGE}/nginx:${CI_COMMIT_REF_SLUG}'
+    network_mode: host
+    depends_on:
+      - backend
+      - frontend
+    restart: always
+    build:
+      context: ./nginx
+      network: host
+    #ports:
+    #- "3005:9080"

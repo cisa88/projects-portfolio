@@ -1,0 +1,14 @@
+.yellow-color:hover {
+    background: #e6b45a;
+    color: white;
+}
+
+.yellow-color {
+    border-color: #e6b45a;
+    color: black;
+}
+  
+.purple-color {
+    background: #6366f1;
+  }
+  

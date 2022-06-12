@@ -1,0 +1,27 @@
+#hero {
+  background-color: var(--e-global-color-5eadcbe);
+  background-image: url('https://insuranlife.1onestrong.com/wp-content/uploads/2022/05/injpg022.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#contact {
+  background-color: var(--e-global-color-7679034);
+  background-image: url(https://insuranlife.1onestrong.com/wp-content/uploads/2022/05/injpg017.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.max-w-150px {
+  max-width: 150px;
+}
+
+.max-w-100px {
+  max-width: 100px;
+}
+
+.hover-bg:hover {
+  background: #e6b45a;
+}

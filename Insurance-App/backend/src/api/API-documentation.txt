@@ -1,0 +1,78 @@
+all API calls without field of type Date are validated in strict mode (no typecasting allowed)
+
+users
+	GET /api/users
+		requires: field email in query
+		returns: user object or 404 if user doesn't exist
+	GET /api/users/{id}
+		requires: id in URL
+		returns: specific user
+	POST /api/users
+		requires: full object except id and optional fields
+			optional fields: lastName, passwdHash
+		returns: created user
+	PUT /api/users
+		requires: field id, email, firstName, licenseDate
+			optional fields: lastName, passwdHash
+		returns: updated user
+	DELETE /api/users/{id}
+		requires: id in URL
+			insurances and cars of a user must be deleted in advance, contacts will be deleted automatically
+		returns: deleted user
+
+cars
+	GET /api/cars
+		requires: field userID in query
+		returns: all cars owned by user
+	POST /api/cars
+		requires: full object except id
+			fuelType is integer in range [0; 4]
+		returns: created car
+	PUT /api/cars
+		requires: field id, plate, userID
+		returns: updated car
+	DELETE /api/cars/{id}
+		requires: id in URL
+			insurance of a car must be deleted in advance
+		returns: deleted car
+
+contacts
+	GET /api/contacts
+		requires: field userID in query
+		returns: all contacts of a user
+	POST /api/contacts
+		requires: full object except id
+		returns: created contact
+	PUT /api/contacts
+		requires: field id, phone, street, city, zip
+		returns: updated contact
+	DELETE /api/contacts/{id}
+		requires: id in URL
+		returns: deleted contact
+
+insurances
+	GET /api/insurances
+		requires: field userID in query
+		returns: all insurances of a user
+	POST /api/insurances
+		requires: full object except id
+			userID of a referenced car and providied userID must match
+		returns: created insurance
+	PUT /api/insurances
+		requires: field id, monthlyRate, dueDate
+		returns: updated insurance
+	DELETE /api/insurances/{id}
+		requires: id in URL
+			packages of an insurance will be deleted automatically
+		returns: deleted insurance
+	
+packages
+	GET /api/packages
+		requires: field insuranceID in query
+		returns: all packages of an insurance
+	POST /api/packages
+		requires: full object except id
+		returns: created package
+	DELETE /api/packages/{id}
+		requires: id in URL
+		returns: deleted package

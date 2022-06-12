@@ -1,0 +1,79 @@
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model User {
+    id          Int         @id @default(autoincrement())
+    email       String      @unique
+    firstName   String
+    lastName    String?
+    birthDate   DateTime
+    citizenID   String
+    licenseDate DateTime
+    passwdHash  String?
+    cars        Car[]
+    contacts    Contact[]
+    insurances  Insurance[]
+}
+
+model Contact {
+    id     Int    @id @default(autoincrement())
+    phone  String
+    street String
+    city   String
+    zip    String
+    user   User   @relation(fields: [userID], references: [id], onDelete: Cascade)
+    userID Int
+}
+
+model Car {
+    id         Int      @id @default(autoincrement())
+    plate      String
+    brand      String
+    model      String
+    engineSize Int
+    powerKW    Int
+    weight     Int
+    registered DateTime
+    fuelType   FuelType
+    user       User     @relation(fields: [userID], references: [id])
+    userID     Int
+    insurance  Insurance?
+}
+
+model Insurance {
+    id          Int       @id @default(autoincrement())
+    monthlyRate Int
+    dueDate     DateTime
+    user        User      @relation(fields: [userID], references: [id])
+    userID      Int
+    car         Car       @relation(fields: [carID], references: [id])
+    carID       Int
+    package     Package[]
+}
+
+model Package {
+    id            Int           @id @default(autoincrement())
+    insuranceType InsuranceType
+    insurance     Insurance     @relation(fields: [insuranceID], references: [id], onDelete: Cascade)
+    insuranceID   Int
+}
+
+enum InsuranceType {
+    PZP
+    HAVARIJNA
+    SKLO
+}
+
+enum FuelType {
+    DIESEL
+    GASOLINE
+    ELECTRIC
+    LPG
+    HYBRID
+}
